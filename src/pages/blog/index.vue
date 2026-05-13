@@ -7,7 +7,7 @@ const { locale, localePath } = useLocale()
 <template>
   <div class="shell py-20">
     <SectionHeading
-      :eyebrow="{ en: 'AH Tech insights', vi: 'Bài viết AH Tech' }"
+      :eyebrow="{ en: 'AHTECH insights', vi: 'Bài viết AHTECH' }"
       :title="{ en: 'Articles from delivery, operations, and security work', vi: 'Bài viết từ thực tế triển khai, vận hành và bảo mật' }"
       :description="{ en: 'Bilingual notes for teams that want to understand digital transformation through implementation detail and practical operating experience.', vi: 'Nội dung song ngữ dành cho đội ngũ muốn hiểu chuyển đổi số qua chi tiết triển khai và kinh nghiệm vận hành thực tế.' }"
     />
@@ -21,7 +21,7 @@ const { locale, localePath } = useLocale()
       >
         <div class="aspect-[16/9] overflow-hidden bg-slate-100">
           <img v-if="blog.image_url" :src="blog.image_url" :alt="translate(blog.title, locale)" class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
-          <div v-else class="flex h-full items-center justify-center bg-slate-900 text-sm font-semibold uppercase tracking-[0.24em] text-white">AH Tech</div>
+          <div v-else class="flex h-full items-center justify-center bg-slate-900 text-sm font-semibold uppercase tracking-[0.24em] text-white">AHTECH</div>
         </div>
         <div class="space-y-4 p-6 sm:p-8">
           <p class="text-xs font-semibold uppercase tracking-[0.2em] text-teal-700">{{ new Date(blog.created_at).toLocaleDateString('en-GB') }}</p>

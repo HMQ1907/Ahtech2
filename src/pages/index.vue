@@ -73,12 +73,12 @@ const highlights = [
             {{ locale === 'en' ? 'Simple, dependable digital transformation for growing businesses.' : 'Chuyển đổi số rõ ràng, ổn định và dễ áp dụng cho doanh nghiệp đang phát triển.' }}
           </h1>
           <p class="max-w-2xl text-lg leading-8 text-slate-600">
-            {{ locale === 'en' ? 'AH Tech helps businesses modernize infrastructure, software, cloud, and security with solutions that are practical to deploy and sustainable to operate.' : 'AH Tech hỗ trợ doanh nghiệp hiện đại hóa hạ tầng, phần mềm, cloud và bảo mật bằng những giải pháp thực tế, dễ triển khai và bền vững trong vận hành.' }}
+            {{ locale === 'en' ? 'AHTECH helps businesses modernize infrastructure, software, cloud, and security with solutions that are practical to deploy and sustainable to operate.' : 'AHTECH hỗ trợ doanh nghiệp hiện đại hóa hạ tầng, phần mềm, cloud và bảo mật bằng những giải pháp thực tế, dễ triển khai và bền vững trong vận hành.' }}
           </p>
 
           <div class="flex flex-wrap gap-4">
             <UButton :to="localePath('/contact')" size="xl" color="neutral" trailing-icon="i-lucide-arrow-right">
-              {{ locale === 'en' ? 'Talk to AH Tech' : 'Trao đổi cùng AH Tech' }}
+              {{ locale === 'en' ? 'Talk to AHTECH' : 'Trao đổi cùng AHTECH' }}
             </UButton>
             <UButton :to="localePath('/service')" size="xl" color="neutral" variant="outline">
               {{ locale === 'en' ? 'View services' : 'Xem dịch vụ' }}
@@ -112,7 +112,7 @@ const highlights = [
       <SectionHeading
         :eyebrow="{ en: 'Services', vi: 'Dịch vụ' }"
         :title="{ en: 'Core capabilities for modern operations', vi: 'Nhóm năng lực cốt lõi cho vận hành hiện đại' }"
-        :description="{ en: 'AH Tech supports the essential layers businesses rely on most, from infrastructure and software to governance, cloud, and cybersecurity.', vi: 'AH Tech hỗ trợ các lớp năng lực thiết yếu mà doanh nghiệp phụ thuộc nhiều nhất, từ hạ tầng và phần mềm đến governance, cloud và an ninh mạng.' }"
+        :description="{ en: 'AHTECH supports the essential layers businesses rely on most, from infrastructure and software to governance, cloud, and cybersecurity.', vi: 'AHTECH hỗ trợ các lớp năng lực thiết yếu mà doanh nghiệp phụ thuộc nhiều nhất, từ hạ tầng và phần mềm đến governance, cloud và an ninh mạng.' }"
       />
 
       <div class="mt-10 grid gap-6 lg:grid-cols-2 xl:grid-cols-4">
@@ -132,7 +132,7 @@ const highlights = [
     <section class="shell py-12">
       <div class="panel grid gap-8 px-8 py-10 lg:grid-cols-[0.9fr_1.1fr] lg:px-10">
         <div>
-          <span class="eyebrow">{{ locale === 'en' ? 'Why AH Tech' : 'Vì sao chọn AH Tech' }}</span>
+          <span class="eyebrow">{{ locale === 'en' ? 'Why AHTECH' : 'Vì sao chọn AHTECH' }}</span>
           <h2 class="mt-5 text-3xl font-semibold tracking-tight text-slate-950">{{ locale === 'en' ? 'Technology decisions grounded in day-to-day operations.' : 'Quyết định công nghệ được đặt trên thực tế vận hành hằng ngày.' }}</h2>
         </div>
         <div class="grid gap-4 sm:grid-cols-3">
@@ -164,7 +164,7 @@ const highlights = [
           style="border:0"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title="AH Tech office map"
+          title="AHTECH office map"
         ></iframe>
       </div>
     </section>

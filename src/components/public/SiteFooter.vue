@@ -17,8 +17,8 @@ const { locale, localePath } = useLocale()
         <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">{{ locale === 'en' ? 'Reach us' : 'Liên hệ' }}</p>
         <div class="mt-4 space-y-3 text-sm text-slate-300">
           <p>T.T.M Building, Binh Thanh District, Ho Chi Minh City</p>
-          <p>hello@ahtech.vn</p>
-          <p>+84 28 3888 6868</p>
+          <p>info@ahtechnology.vn</p>
+          <p>0373.737.897</p>
         </div>
       </div>
 

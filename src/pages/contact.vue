@@ -15,7 +15,7 @@ const mailtoLink = computed(() => {
     form.message
   ].join('\n'))
 
-  return `mailto:hello@ahtech.vn?subject=${subject}&body=${body}`
+  return `mailto:info@ahtechnology.vn?subject=${subject}&body=${body}`
 })
 </script>
 
@@ -36,11 +36,11 @@ const mailtoLink = computed(() => {
           </div>
           <div>
             <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Email</p>
-            <p class="mt-2 text-base text-slate-800">hello@ahtech.vn</p>
+            <p class="mt-2 text-base text-slate-800">info@ahtechnology.vn</p>
           </div>
           <div>
             <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">{{ locale === 'en' ? 'Phone' : 'Điện thoại' }}</p>
-            <p class="mt-2 text-base text-slate-800">+84 28 3888 6868</p>
+            <p class="mt-2 text-base text-slate-800">0373.737.897</p>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ const mailtoLink = computed(() => {
           <UButton :to="mailtoLink" external size="xl" color="neutral">
             {{ locale === 'en' ? 'Open email draft' : 'Mở email soạn sẵn' }}
           </UButton>
-          <UButton to="mailto:hello@ahtech.vn" external size="xl" color="neutral" variant="outline">
+          <UButton to="mailto:info@ahtechnology.vn" external size="xl" color="neutral" variant="outline">
             {{ locale === 'en' ? 'Email us directly' : 'Gửi email trực tiếp' }}
           </UButton>
         </div>
