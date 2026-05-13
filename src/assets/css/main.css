@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --ah-ink: #10203a;
+  --ah-brand: #0f766e;
+  --ah-accent: #f97316;
+  --ah-mist: #eef6ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Be Vietnam Pro", "Segoe UI", sans-serif;
+  background: #f5f7fb;
+  color: #111827;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.shell {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.panel {
+  @apply rounded-3xl border border-white/60 bg-white/82 shadow-[0_18px_50px_-24px_rgba(15,23,42,0.3)] backdrop-blur;
+}
+
+.eyebrow {
+  @apply inline-flex items-center gap-2 rounded-full border border-teal-200 bg-teal-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-teal-700;
+}
+
+.hero-grid {
+  background-image: radial-gradient(circle at top, rgba(15,118,110,0.2), transparent 28%), linear-gradient(135deg, rgba(255,255,255,0.9), rgba(226,242,255,0.75));
+}
+
+.field {
+  @apply w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-4 focus:ring-teal-100;
+}
+
+.field-label {
+  @apply mb-2 block text-sm font-semibold text-slate-700;
+}
+
+.table-shell {
+  @apply overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm;
+}
+
+.table-shell table {
+  @apply min-w-full divide-y divide-slate-200 text-sm;
+}
+
+.table-shell th {
+  @apply bg-slate-50 px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.18em] text-slate-500;
+}
+
+.table-shell td {
+  @apply px-4 py-3 align-top text-slate-700;
+}
+
+.prose-lite h3 {
+  @apply mt-8 text-2xl font-semibold text-slate-900;
+}
+
+.prose-lite p {
+  @apply mt-4 leading-7 text-slate-600;
+}
+
+.prose-lite ul {
+  @apply mt-4 list-disc space-y-2 pl-5 text-slate-600;
+}
