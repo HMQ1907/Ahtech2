@@ -26,7 +26,7 @@ const mailtoLink = computed(() => {
         <span class="eyebrow">{{ locale === 'en' ? 'Contact' : 'Liên hệ' }}</span>
         <h1 class="text-5xl font-semibold tracking-tight text-slate-950">{{ locale === 'en' ? 'Tell us where operations are getting stuck.' : 'Cho chúng tôi biết doanh nghiệp đang vướng ở đâu.' }}</h1>
         <p class="text-lg leading-8 text-slate-600">
-          {{ locale === 'en' ? 'Share the infrastructure, software, security, or service-management issue your team is facing. Use the static inquiry form to prepare an email draft directly from the site.' : 'Chia sẻ vấn đề về hạ tầng, phần mềm, bảo mật hoặc vận hành dịch vụ mà đội ngũ đang gặp phải. Form tĩnh này sẽ tạo sẵn email để anh chị gửi trực tiếp từ website.' }}
+          {{ locale === 'en' ? 'Share the infrastructure, software, security, or service-management issue your team is facing.' : 'Chia sẻ vấn đề về hạ tầng, phần mềm, bảo mật hoặc vận hành dịch vụ mà đội ngũ đang gặp phải.' }}
         </p>
 
         <div class="panel space-y-5 p-6">
