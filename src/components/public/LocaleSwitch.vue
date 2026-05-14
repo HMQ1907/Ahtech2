@@ -28,7 +28,7 @@ onClickOutside(rootRef, () => {
 </script>
 
 <template>
-  <div ref="rootRef" class="fixed right-4 top-4 z-50 md:right-6 md:top-5">
+  <div ref="rootRef" class="relative z-30">
     <button
       type="button"
       class="flex items-center gap-3 rounded-full border border-slate-200/90 bg-white/95 px-4 py-2 text-sm font-semibold text-slate-900 shadow-lg ring-1 ring-slate-950/5 backdrop-blur transition hover:border-slate-300 hover:bg-white"
