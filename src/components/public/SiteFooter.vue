@@ -6,8 +6,8 @@ const { locale, localePath } = useLocale()
   <footer class="border-t border-slate-200 bg-slate-950 text-slate-200">
     <div class="shell grid gap-12 py-16 lg:grid-cols-[1.4fr_1fr_1fr]">
       <div class="space-y-4">
-        <p class="text-sm font-semibold uppercase tracking-[0.28em] text-teal-300">AHTECH</p>
-        <h2 class="max-w-md text-3xl font-semibold text-white">{{ locale === 'en' ? 'Practical systems for modern operations.' : 'Hệ thống thực tiễn cho vận hành hiện đại.' }}</h2>
+        <img src="/images/Logo-removebg-preview.png" alt="AHTECH" class="h-12 w-auto" >
+        <h2 class="max-w-md text-3xl font-semibold text-white">AN HUNG TECHNOLOGY DEVELOPMENT SOLUTIONS COMPANY LIMITED</h2>
         <p class="max-w-xl text-sm leading-7 text-slate-400">
           {{ locale === 'en' ? 'We help Vietnamese businesses modernize infrastructure, software delivery, cybersecurity, and day-to-day IT operations with solutions built for execution.' : 'Chúng tôi giúp doanh nghiệp hiện đại hóa hạ tầng, phát triển phần mềm, an ninh mạng và vận hành CNTT hằng ngày bằng các giải pháp có thể triển khai thực tế.' }}
         </p>
@@ -16,7 +16,7 @@ const { locale, localePath } = useLocale()
       <div>
         <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">{{ locale === 'en' ? 'Reach us' : 'Liên hệ' }}</p>
         <div class="mt-4 space-y-3 text-sm text-slate-300">
-          <p>T.T.M Building, Binh Thanh District, Ho Chi Minh City</p>
+          <p>AHTECH, 5th Floor, TTM Building, 309 Bach Dang Street, Gia Dinh Ward, Ho Chi Minh City, Vietnam</p>
           <p>info@ahtechnology.vn</p>
           <p>0373.737.897</p>
         </div>
