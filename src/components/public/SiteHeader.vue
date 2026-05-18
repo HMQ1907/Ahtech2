@@ -30,7 +30,7 @@ watch(
   <header class="sticky top-0 z-40 border-b border-white/60 bg-white/80 backdrop-blur-xl">
     <div class="shell flex items-center justify-between gap-6 py-4">
       <NuxtLink :to="localePath('/')" class="flex items-center gap-3">
-        <img src="/images/logo.jpg" alt="AHTECH" class="h-10 w-auto" >
+        <img src="/images/Logo-removebg-preview.png" alt="AHTECH" class="h-10 w-auto" >
       </NuxtLink>
 
       <nav class="hidden items-center gap-2 md:flex">
