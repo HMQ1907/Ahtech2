@@ -5,24 +5,17 @@ const { locale, localePath } = useLocale()
 
 const stats = [
   {
-    value: '10+',
-    label: {
-      en: 'years supporting digital transformation programs',
-      vi: 'năm đồng hành cùng các chương trình chuyển đổi số'
-    }
-  },
-  {
     value: '24/7',
     label: {
-      en: 'operational mindset for critical systems',
-      vi: 'tư duy vận hành cho các hệ thống quan trọng'
+      en: 'Operational mindset for critical systems',
+      vi: 'Tư duy vận hành cho các hệ thống quan trọng'
     }
   },
   {
     value: '5',
     label: {
-      en: 'core service areas delivered as one stack',
-      vi: 'nhóm dịch vụ cốt lõi được triển khai như một hệ thống'
+      en: 'Core service areas delivered as one stack',
+      vi: 'Nhóm dịch vụ cốt lõi được triển khai như một hệ thống'
     }
   }
 ]
@@ -85,7 +78,7 @@ const highlights = [
             </UButton>
           </div>
 
-          <div class="grid gap-4 pt-2 sm:grid-cols-3">
+          <div class="grid gap-4 pt-2 sm:grid-cols-2">
             <div v-for="item in stats" :key="item.label.en" class="rounded-3xl border border-white/70 bg-white/85 p-5 shadow-sm">
               <p class="text-3xl font-semibold text-slate-950">{{ item.value }}</p>
               <p class="mt-2 text-sm leading-6 text-slate-600">{{ translate(item.label, locale) }}</p>
